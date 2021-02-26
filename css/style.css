@@ -1,0 +1,37 @@
+/*changing the color of ratings to black*/
+
+/* Firefox, Chrome, Opera */ 
+ input[name="rating"]::placeholder {
+    color: black; 
+} 
+
+  /* Internet Explorer 10-11 */ 
+input[name="rating"]:-ms-input-placeholder { 
+    color: black; 
+} 
+
+  /* Microsoft Edge */ 
+input[name="rating"]::-ms-input-placeholder { 
+    color: black; 
+}
+
+/*CHANGING THE COLOR OF THE GENRE PLACEHOLDER TO BLACK*/
+
+ /* Firefox, Chrome, Opera */ 
+ input[name="genre"]::placeholder {
+    color: black; 
+} 
+
+  /* Internet Explorer 10-11 */ 
+input[name="genre"]:-ms-input-placeholder { 
+    color: black; 
+} 
+
+  /* Microsoft Edge */ 
+input[name="genre"]::-ms-input-placeholder { 
+    color: black; 
+}
+
+.logo{
+  margin-left: 20px;
+}
